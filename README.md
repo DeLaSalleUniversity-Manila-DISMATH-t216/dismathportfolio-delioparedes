@@ -208,6 +208,29 @@ Algorithms
 - is a procedure or formula for solving a problem, based on conductiong a sequence of specified actions
 
 Types of Algorithms:
+Searching Algorithms
+- the problem of finding an element in an ordered and sorted list
+A. Linear Search Algorithm
+- compare each value until the value wanted is found
+B. Binary Search Algorithm
+- find the middle term of the indices and compare it, 
+- if not found and greater than the value in the middle index, use the upper part of the indices
+- if not found and lower the the value in the middle index, use the lower part of the indices
+- compare the new middle value and compare it, repeat until value is found
+
+Sorting Algorithms
+- the problem of putting elements in an increasing order
+A. Bubble Sort
+- compare the 2 adjacent elements and place the lower value element in front
+- compare the next 2 adjacent elements, repeat until sorted
+B. Insertion Sort
+- compare compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+
+Greedy Algorithms
+A. Big O Notation
+- the process of finding the best path
+
+# Week 8
 
 
 
