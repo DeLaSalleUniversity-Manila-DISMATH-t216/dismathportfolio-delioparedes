@@ -84,16 +84,80 @@ This week the class focused on:
 
 There are two types of **Quantifiers**:
 
-1. Existential Quantifier ('Ǝ') 
+**1. Existential Quantifier ('Ǝ') **
 - which can be translated to "there exists"
 - to prove existence, state an example 
 Ǝx.P(x)
 - is true if atleast one element in the domain such that P(x) is true
 
-2. Universal Quantifier ('Ɐ') 
+**2. Universal Quantifier ('Ɐ') **
 - which can be translated to "for all"
 - to prove universality, there must be a counter example or all iterations must be True or False
 Ɐx.P(x) 
 - is true if all the elememnts in the domain such that P(x) is true
 
+A main part of the lecture was focused on translating English senteces into Quantifier formulas
+
 #Week 5
+This week the class focused on:
+- The Rules of Inference, which is like the Logical Equivalance.
+
+**Rules of Inference**
+- inference rule or transformation rule is a logical form consisting of a function which takes premises, analyzes their syntax, and returns a conclusion
+Shown below is the table for the various rules of inferences:
+
+ | Rule of Inference | Logical Connectives |  Name  |
+ | :-------: | :--------------: | :---------: |
+ | p<br/>p→q<br/>∴q |  (p ∧ (p → q)) → q  | Modus Ponens  |
+ | ¬q<br/>p → q<br/>∴ ¬p  |  (¬q ∧ (p → q)) → ¬p |  Modus Tollens  |
+ | p → q<br/>q → r<br/>∴ p → r  | ((p → q) ∧ (q → r)) → (p → r) |  Hypothetical Syllogism  |
+ | p ∨ q<br/>¬p<br/>∴ q  | ((p ∨ q) ∧ ¬p) → q   |  Disjunctive Syllogism |
+ | p<br/>∴ p ∨ q  |  p → p ∨ q  |  Addition  |
+ | p ∧ q<br/>∴ p  |  (p ∧ q) → p  | Simplification  |
+ |  p<br/>q<br/>∴ p ∧ q |  ((p) ∧ (q)) → (p ∧ q)  |  Conjunction  |
+ | p ∨ q<br/>¬p ∨ r<br/>∴ q ∨ r  |  ((p ∨ q) ∧ (¬p ∨ r)) → q ∨ r | Resolution  |
+ 
+Each line on the column of Rule of Inference represents the gradual finding of the conclusion of a given function and formula
+
+- All the different types of proofs
+- These proofs are also called as **General Strategies for Proving Theorems**
+1. Direct Proof (p → q)
+Steps: 
+A. Assume p(hypothesis) is true
+B. Show/Prove that q(conclusion) must be true
+
+2. Indirect Proof or Proof by Contraposition (¬q → ¬p)
+Steps:
+A. Assume ¬q(hypothesis) is true
+B. Show/Prove that ¬p(conclusion) must be true
+- or given p → q, let p → q ≡ ¬q → ¬p then apply direct proof on ¬q → ¬p
+
+3. Proof by Contradiction (p ^ ¬q)
+Steps:
+A. Negate the whole statement (if the statement is in the form of (p → q)
+B. Then show that a contradiction will exists
+- or given p → q, assume p is true and ¬q is true, then substitute ¬q in p which will lead to a contradiction
+
+4. Proof by Cases
+Steps:
+A. List all the possible iterations for the inputs
+B. Find the output for each set of inputs
+- example will be a **Truth Table**
+
+5. Proof by Equivalence
+Steps:
+Use the table for Logical Equivalances and apply it the formula until simplified.
+Some of the most common logical equivalances are:
+A. Identity Laws
+B. Domination Laws
+C. Idempotent Laws
+D. Double Negation Laws
+E. Commutative Laws
+F. Associative Laws
+G. Distributive Laws
+H. De Morgan's Law
+I. Absorption Laws
+J. Negation Laws
+K. Implication Equivalence
+
+#Week 6
