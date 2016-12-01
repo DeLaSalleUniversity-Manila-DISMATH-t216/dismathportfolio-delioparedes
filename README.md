@@ -160,4 +160,55 @@ I. Absorption Laws
 J. Negation Laws
 K. Implication Equivalence
 
+** QUIZ 1!!**
+
 #Week 6
+This week marks the start of the lecture for Quiz 2
+The class focused on: Functions
+
+**Functions**
+- it has three main parts:
+Domain
+- the set of all possible inputs of a function which allow the function to work; the sets does not apply to the domain
+Codomain
+- the set of all possible outputs of a function; directly affected by the sets
+Range
+- Range - a subset of Codomain or the used values of the Codomain hence "Actually Occurring values"
+
+Types of Functions:
+Injunction or One-to-One
+- given any b in set B, there is only one a in set A that can be paired with the given b
+- each domain is assigned to another codomain, no domain can be assigned to another same codomain (all values are paired)
+Surjection or Onto
+- if every element b in set B has a corresponding element a in set A such that f(a) = b
+- the range and codomain are equal
+Bijection or One-to-One and Onto
+- each element of set A is paired with exactly one element of set B, and each element of the set B is paired with exactly one element of set A (no unpaired elements); 
+- must satisfy onto and one-to-one
+**A function must be a Bijection to be inversed**
+
+Other Types of Functions:
+Floor Function
+- rounds the number down
+ex. flr(1.4) = 1, flr(2.1) = 2
+
+Ceiling Function
+- rounds the number up
+ex. ceil(1.1) =2, ceil(2.1) = 3
+
+Does not affect whole numbers
+
+# Week 7
+
+The week the class focused on:
+- Algorithms
+- Pseudocode
+
+Algorithms
+- is a procedure or formula for solving a problem, based on conductiong a sequence of specified actions
+
+Types of Algorithms:
+
+
+
+
