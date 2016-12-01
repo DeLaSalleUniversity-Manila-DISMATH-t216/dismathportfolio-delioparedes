@@ -68,3 +68,32 @@ The logical equivalances are:
 | p ∨ (p ∧ q) ≡ p<br/> p ∧ (p ∨ q) ≡ p | Absorption Laws |
 | p ∨ ¬p ≡ **T**<br/> p ∧ ¬p ≡ **F** | Negation Laws |
 | p → q ≡ ¬p ∨ q | Implication Equivalence |
+
+#Week 3
+This week the class focused on:
+- practicing the logical connectives
+- to be more familiarized with the logical connective **biconditional**
+- An introduction to **First-Order Logic** was made
+
+**First Order Logic**
+- a predicate can only refer to a single subject. 
+
+#Week 4
+This week the class focused on:
+- the concept of instantation or the concept of the quantifiers
+
+There are two types of **Quantifiers**:
+
+1. Existential Quantifier ('Ǝ') 
+- which can be translated to "there exists"
+- to prove existence, state an example 
+Ǝx.P(x)
+- is true if atleast one element in the domain such that P(x) is true
+
+2. Universal Quantifier ('Ɐ') 
+- which can be translated to "for all"
+- to prove universality, there must be a counter example or all iterations must be True or False
+Ɐx.P(x) 
+- is true if all the elememnts in the domain such that P(x) is true
+
+#Week 5
