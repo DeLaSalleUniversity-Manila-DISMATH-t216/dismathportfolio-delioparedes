@@ -227,11 +227,88 @@ B. Insertion Sort
 - compare compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
 
 Greedy Algorithms
-A. Big O Notation
 - the process of finding the best path
 
 # Week 8
 
+This week the class focused on:
+- Big O notations
+- Quiz 2
+
+Big O notation
+- is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used by an algorithm.
+- Big O specifies the upper bound wherein the C*gx is always greater than the f(x)
 
 
 
+# Week 9
+
+This week the class focused on:
+- Big Omega
+- Big Theta
+
+Big Omega notation
+- The big omega also shows the time complexity of an algorithm without showing the upper bound limits. The big omega specifies the lower bound wherein the c*gx is always smaller than the f(x)
+
+Big Theta
+- basically, it is the combination of big O and big Omega.
+
+# Week 10
+
+This week the class focused on:
+- Graph theory
+
+Graph theory 
+- heavily realies on the visual logic of a person
+- A graph consists of two main parts namely:
+A. Vertex 
+- the nodes wherein the edges are connected
+B. Edges
+- lines that connects nodes with another node
+
+Each vertex has its own degree. A degree of a vertex is the number of edges incident with it.
+A graph can also has its own subgraph as long as it contains the same vertex and same edges and as long as the two graphs are not equal at both the vertices and edges.
+
+Handshaking Theorem
+- 2e = Sum[deg(v)] 
+- is mainly used to determine the number of edges or the number of degrees that the vertices have. 
+
+A picture of the Konigsberg problem is shown as an introduction to Eulers.
+
+Euler Circuit 
+- a Euler circuit is a graph wherein all the edges are passed-by without repeating an edge. Also, the starting vertex is also the end vertex
+- to determine if a graph is a Euler circuit, all of the degree of its vertices should be even.
+
+Euler Path
+- same concept as Euler circuit. However, the starting vertex is not the end vertex.
+- to determine if a graph is a Euler path, exactly 2 of its vertices should have odd degree.
+
+Hamiltonina Circuit
+- a Hamiltonian circuit is a graph wherein all the vertices are passed-by without repeating an edge. Also, the starting vertex is also the end vertex
+
+Hamiltonina Path
+- same concept as Hamiltonian circuit. However, the starting vertex is not the end vertex.
+
+- Quiz 3!!
+
+# Week 11
+- More concepts regarding Graph Theory
+
+Isomorphic Graph
+- Graphs that have equal vertices/nodes, and have the same connection. However, the graph is twisted so it doesn't look alike
+
+Planar Graph
+- No edges cross in a graph.
+- Isomorphic graphs tend to complicate whethere a graph is planar or non-planar
+
+Euler's formula for counting the regions: 
+r = e - v +2
+
+For solving if a graph is planar or non-planar:
+Kuratowski's Theorem 
+- Nonplanar if and only if it contains a subgraph homeophobic to K3,3 and K5.
+
+# Week 12
+- We were asked by Sir Cabatuan to study at home the topics of Trees
+
+# FINAL EXAM :D
